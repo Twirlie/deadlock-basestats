@@ -13,10 +13,10 @@
 
   $: if (heroes.length > 0 && statName) {
     sortedHeroes = heroes
-      .filter((h) => h.starting_stats[statName as keyof any])
+      .filter((h) => h.starting_stats[statName])
       .map((h) => ({
         hero: h,
-        value: (h.starting_stats[statName as keyof any] as StatValue).value,
+        value: (h.starting_stats[statName] as StatValue).value,
       }))
       .sort((a, b) => b.value - a.value)
   }
