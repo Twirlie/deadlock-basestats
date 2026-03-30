@@ -1,0 +1,5028 @@
+[
+  {
+    "id": 1,
+    "name": "Infernus",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 840,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Seven",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.8,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 0.65,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Vindicta",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.9,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 765,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lady Geist",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.3,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 2.4,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 890,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Abrams",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.4,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 810,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Wraith",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "McGinnis",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Paradox",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Dynamo",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 890,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1.75,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Kelvin",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.1,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 890,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.18181,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Haze",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 8.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Holliday",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 8.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Bebop",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.45,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 4,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 63,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 890,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.181818,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Calico",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 63,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Grey Talon",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.3,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 4,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Mo & Krill",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 940,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 0.8,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Shiv",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.5,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 840,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.18181,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Ivy",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 765,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 4,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Kali",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Warden",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.3,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 815,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Yamato",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 8.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 55,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 128,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "name": "Lash",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 2.1,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_armor_damage_reduction": {
+        "value": 10,
+        "display_stat_name": "ETechArmorDamageReduction"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Viscous",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 63,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "name": "Gunslinger",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "name": "The Boss",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "name": "Tokamak",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "name": "Wrecker",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "name": "Rutger",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "name": "Pocket",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 60,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_armor_damage_reduction": {
+        "value": -15,
+        "display_stat_name": "ETechArmorDamageReduction"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "name": "Thumper",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "name": "Mirage",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "name": "Fathom",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "name": "Cadence",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 840,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "name": "Bomber",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "name": "Shield Guy",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "name": "Vyper",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.9,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 4,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "name": "Vandal",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 4,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "name": "Sinclair",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "name": "Trapper",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_armor_damage_reduction": {
+        "value": -15,
+        "display_stat_name": "ETechArmorDamageReduction"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "name": "Raven",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "name": "Mina",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.5,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 670,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.238095,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "name": "Drifter",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.9,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 51.5,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 120,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 765,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 3.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "name": "Venator",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.4,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.5,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 125,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "name": "Victor",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.3,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.1,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 810,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_armor_damage_reduction": {
+        "value": 0,
+        "display_stat_name": "ETechArmorDamageReduction"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "name": "Paige",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.9,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 3.5,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 42,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 120,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 690,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "name": "Boho",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 715,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "name": "The Doorman",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.9,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 765,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "name": "Skyrunner",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 2.5,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_armor_damage_reduction": {
+        "value": 10,
+        "display_stat_name": "ETechArmorDamageReduction"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "name": "Swan",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "name": "Billy",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 830,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "name": "Druid",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "name": "Graf",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 520,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "name": "Fortuna",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 690,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "name": "Graves",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "name": "Apollo",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 63,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 780,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "name": "Airheart",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 690,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "name": "Rem",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 4,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 58,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 690,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 0.9,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "name": "Silver",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.7,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.5,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 840,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 2,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2.5,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "name": "Celeste",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 4,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 1,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      },
+      "bullet_armor_damage_reduction": {
+        "value": -8,
+        "display_stat_name": "EBulletArmorDamageReduction"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "name": "Opera",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 7.2,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 50,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 790,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "name": "hero_testhero",
+    "starting_stats": {
+      "max_move_speed": {
+        "value": 6.8,
+        "display_stat_name": "EMaxMoveSpeed"
+      },
+      "sprint_speed": {
+        "value": 1.6,
+        "display_stat_name": "ESprintSpeed"
+      },
+      "crouch_speed": {
+        "value": 4.75,
+        "display_stat_name": "ECrouchSpeed"
+      },
+      "move_acceleration": {
+        "value": 4,
+        "display_stat_name": "EMoveAcceleration"
+      },
+      "light_melee_damage": {
+        "value": 63,
+        "display_stat_name": "ELightMeleeDamage"
+      },
+      "heavy_melee_damage": {
+        "value": 116,
+        "display_stat_name": "EHeavyMeleeDamage"
+      },
+      "max_health": {
+        "value": 740,
+        "display_stat_name": "EMaxHealth"
+      },
+      "weapon_power": {
+        "value": 0,
+        "display_stat_name": "EWeaponPower"
+      },
+      "reload_speed": {
+        "value": 1,
+        "display_stat_name": "EReloadSpeed"
+      },
+      "weapon_power_scale": {
+        "value": 1,
+        "display_stat_name": "EWeaponPowerScale"
+      },
+      "proc_build_up_rate_scale": {
+        "value": 1,
+        "display_stat_name": "EProcBuildUpRateScale"
+      },
+      "stamina": {
+        "value": 3,
+        "display_stat_name": "EStamina"
+      },
+      "base_health_regen": {
+        "value": 2,
+        "display_stat_name": "EBaseHealthRegen"
+      },
+      "stamina_regen_per_second": {
+        "value": 0.222222,
+        "display_stat_name": "EStaminaRegenPerSecond"
+      },
+      "ability_resource_max": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceMax"
+      },
+      "ability_resource_regen_per_second": {
+        "value": 0,
+        "display_stat_name": "EAbilityResourceRegenPerSecond"
+      },
+      "crit_damage_received_scale": {
+        "value": 1,
+        "display_stat_name": "ECritDamageReceivedScale"
+      },
+      "tech_duration": {
+        "value": 1,
+        "display_stat_name": "ETechDuration"
+      },
+      "tech_range": {
+        "value": 1,
+        "display_stat_name": "ETechRange"
+      }
+    }
+  }
+]
