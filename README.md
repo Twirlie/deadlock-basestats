@@ -12,14 +12,14 @@ A web-based tool for exploring and comparing hero base statistics in [Deadlock](
 - **Hero Browser** — Grid view of all 61 Deadlock heroes with base statistics
 - **Base Stats Display** — View complete starting stats for each hero
 - **Responsive Design** — Works on desktop, tablet, and mobile
-
-### Planned
 - **Fuzzy Search** — Filter heroes by name
 - **Stat Tierlist** — Rank all heroes by a selected stat (e.g., who has the highest max health?)
+- **Live Data** — Stays up-to-date with Deadlock patches via API
+
+### Planned
 - **Hero Comparison** — Select 2 heroes and compare stats side-by-side with highlighted differences
 - **Boon Progression** — View how stats scale with leveling/boons
 - **Visual Enhancements** — Color-coded stats (Weapon/Vitality/Spirit), hero portraits, icons
-- **Live Data** — Stays up-to-date with Deadlock patches via API
 
 ---
 
@@ -99,10 +99,10 @@ scripts/
 
 ## Data Source
 
-Hero data is sourced from the [Deadlock API](https://deadlock-api.com/). Currently using a static snapshot (`heroes.json`), with plans to implement live fetching to stay current with game updates.
+Hero data is sourced from the [Deadlock API](https://deadlock-api.com/). 
 
 The `pnpm extract` command:
-1. Reads `heroes.json`
+1. queries API or reads from local `heroes.json`
 2. Extracts hero `id`, `name`, and `starting_stats` for each hero
 3. Writes pruned data to `data/heroes-stats.json`
 
