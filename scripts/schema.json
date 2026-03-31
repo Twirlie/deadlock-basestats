@@ -1,0 +1,44 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "starting_stats"
+    ],
+    "properties": {
+      "id": {
+        "type": "number",
+        "description": "Unique hero identifier"
+      },
+      "name": {
+        "type": "string",
+        "description": "Hero name"
+      },
+      "starting_stats": {
+        "type": "object",
+        "description": "Hero starting statistics",
+        "additionalProperties": {
+          "type": "object",
+          "required": [
+            "value",
+            "display_stat_name"
+          ],
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Stat value"
+            },
+            "display_stat_name": {
+              "type": "string",
+              "description": "Display name for the stat"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}

@@ -8,7 +8,7 @@ This document provides essential context for AI agents working on this project.
 
 A web-based tool for exploring and comparing Deadlock hero base statistics. Users can browse hero data, search by name, compare stats, view ranking tiers, and discover how stats scale with boons (leveling).
 
-**Status**: Foundation complete (project initialized, data pipeline working, basic UI in place). Feature development phase upcoming.
+**Status**: Foundation complete (project initialized, data pipeline with live API fetch working, basic UI in place, schema validation enabled). Feature development phase upcoming.
 
 ---
 
@@ -19,24 +19,28 @@ A web-based tool for exploring and comparing Deadlock hero base statistics. User
 - **Frontend Framework**: Svelte 5 (modern runes API, no legacy mode)
 - **Build Tool**: Vite 8 with @sveltejs/vite-plugin-svelte
 - **Styling**: Tailwind CSS 4 with PostCSS
-- **Data Source**: Static JSON file (`data/heroes-stats.json`) with live API fetch planned
+- **Data Source**: Live API fetch with local fallback (`heroes.json`), pruned to `data/heroes-stats.json`
 
 ---
 
 ## Data Pipeline
 
 ### Data Source
-- **Primary Input**: `heroes.json` (61 heroes from Deadlock API snapshot)
-- **Origin**: Exported from `https://assets.deadlock-api.com/v2/heroes` (fetch not yet implemented)
+- **Primary Input**: `heroes.json` (61 heroes from Deadlock API)
+- **Origin**: Fetched live from `https://assets.deadlock-api.com/v2/heroes` on each extraction
+- **API Fetch**: Automatic on `pnpm extract` with 10s timeout, fallback to local file if unavailable
 
 ### Extraction Script
 - **File**: `scripts/extract-hero-stats.ts`
+- **Generator**: `scripts/generate-schema.ts` (generates JSON schema from types)
 - **Language**: TypeScript (executed via `tsx`)
 - **Process**:
-  1. Read `heroes.json`
-  2. Extract per hero: `id`, `name`, `starting_stats` (object with stat keys like `max_move_speed`, `max_health`, etc.)
-  3. Write pruned data to `data/heroes-stats.json` (61 heroes × 18+ stats per hero)
-- **Execution**: `pnpm extract`
+  1. Generate JSON schema from `src/types.ts` (`HeroData` interface) → `scripts/schema.json`
+  2. Fetch heroes from API (or load from `heroes.json` if API unavailable)
+  3. Validate raw response against generated schema using ajv
+  4. Extract per hero: `id`, `name`, `starting_stats`
+  5. Write pruned data to `data/heroes-stats.json` (61 heroes × 18+ stats per hero)
+- **Execution**: `pnpm extract` (runs both generate-schema and extraction)
 - **Output Schema**:
   ```json
   [
@@ -53,11 +57,6 @@ A web-based tool for exploring and comparing Deadlock hero base statistics. User
   ]
   ```
 
-### Future Enhancement
-- Implement live API fetch in `scripts/extract-hero-stats.ts` to pull latest data on each `pnpm extract` run
-- Fallback to local `heroes.json` if API unavailable
-- Enables staying current with Deadlock patches
-
 ---
 
 ## Project Structure
@@ -70,11 +69,11 @@ deadlock-basestats/
 │   ├── app.css                    # Global styles + Tailwind imports
 │   ├── main.js                    # App entry point
 │   └── components/
-│       ├── HeroCard.svelte        # Individual hero stat card
-│       ├── StatTable.svelte       # Ranked hero table by stat
-│       └── HeroList.svelte        # Hero selection grid
+│       └── HeroCard.svelte        # Individual hero stat card
 ├── scripts/
-│   └── extract-hero-stats.ts      # Data extraction utility (TypeScript)
+│   ├── extract-hero-stats.ts      # Data extraction utility (TypeScript)
+│   ├── generate-schema.ts         # JSON schema generation from types
+│   └── schema.json                # Generated schema artifact (HeroData[])
 ├── data/
 │   └── heroes-stats.json          # Generated pruned hero data (61 heroes)
 ├── public/
@@ -136,9 +135,78 @@ export interface Hero {
 - **Search state** — Tied to URL or local component state
 
 ### Phase 2: Stat Analysis
-- **Tierlist view** — Select a stat (e.g., `max_health`) and display ranked heroes
-- **Stat selector** — Dropdown or button grid to switch between stats
-- **Ranking persistence** — Show hero rank, value, and percentile vs. others
+**Goal**: Enable users to view all heroes ranked by individual stats, grouped into tiers (S, A, B, C, D).
+
+#### UI Layout
+```
+┌─────────────────────────────────────────────────────────────┐
+│ Stat Selector (Button Grid)                                 │
+│ [Max Health] [Max Move Speed] [Spirit Power] [Health Regen] │
+│ [Bullet Damage] [Fire Rate] [Reload Speed] [Physical Armor]│
+│ [Energy Armor] [Stamina] ...                                 │
+└─────────────────────────────────────────────────────────────┘
+                            ↓
+┌─────────────────────────────────────────┐
+│ HIGH TIER (Upper Outliers)              │
+│ ├─ 1. Infernus          840             │
+│ ├─ 2. Vindicta          835             │
+│ └─ 3. Helix             832             │
+│ MID TIER (Baseline Average)             │
+│ ├─ 4. Dullahan          720             │
+│ ...                                     │
+│ LOW TIER (Lower Outliers)               │
+│ ...                                     │
+└─────────────────────────────────────────┘
+```
+
+#### Implementation Components
+
+**StatSelector.svelte**
+- Display all available `starting_stats` keys (extracted from heroes data)
+- Button Grid: one button per stat with responsive wrapping (Max Health, Max Move Speed, etc.)
+- Single select: clicking a stat button triggers hero re-ranking and highlights active button
+- Initially selects `max_health` button
+- Styling: Active button highlighted (e.g., darker background, border, or accent color)
+
+**StatTierList.svelte** (new component)
+- Props: `heroes: Hero[]`, `selectedStat: string`
+- Derives: sorted heroes by stat value (descending)
+- Tier assignment logic (outlier-based):
+  - Calculate mean and standard deviation for the selected stat across all heroes
+  - **HIGH TIER**: Heroes > (mean + 1 SD) — upper outliers with notably higher stats
+  - **MID TIER**: Heroes between (mean - 1 SD) and (mean + 1 SD) — baseline average heroes
+  - **LOW TIER**: Heroes < (mean - 1 SD) — lower outliers with notably lower stats
+- Display format per hero: `[Rank]. [Hero Name] [Stat Value]`
+  - Example: `1. Infernus 840`
+  - Rank is absolute position in sorted list (1, 2, 3, ...)
+- Tier header styling (e.g., HIGH TIER in gold, MID TIER in gray, LOW TIER in red)
+
+**Data Processing in App.svelte**
+- Extract unique stat keys: `Object.keys(heroes[0].starting_stats)`
+- Track `selectedStat` state: `let selectedStat = 'max_health'`
+- Pass both to StatTierList: `<StatTierList {heroes} {selectedStat} />`
+
+#### Ranking Formula
+```
+mean = average of stat values across all heroes
+stdDev = standard deviation of stat values
+highThreshold = mean + 1 * stdDev
+lowThreshold = mean - 1 * stdDev
+
+tier = determine from thresholds:
+  if (value > highThreshold) → HIGH TIER
+  if (value < lowThreshold) → LOW TIER
+  else → MID TIER
+```
+For 61 heroes (typical distribution):
+- HIGH TIER: ~9 heroes (upper outliers, roughly top 15%)
+- MID TIER: ~43 heroes (baseline average, roughly middle 70%)
+- LOW TIER: ~9 heroes (lower outliers, roughly bottom 15%)
+
+#### Stat Display
+- Show exact stat **value** (not `display_stat_name`), e.g., `840` for max_health
+- Consider appending unit context (future Phase 5 refinement) after percentile display works
+- Alignment: `[Rank]. [Hero Name] .............. [Stat Value]` (right-aligned value with dots/flex space)
 
 ### Phase 3: Hero Comparison
 - **Comparison mode** — Select 2 heroes to cross-compare
@@ -188,10 +256,11 @@ Every stat falls into one of three categories:
 ## Available npm Scripts
 
 ```bash
-pnpm dev          # Start Vite dev server (http://localhost:5173)
-pnpm build        # Build optimized production bundle (dist/)
-pnpm preview      # Preview production build locally
-pnpm extract      # Run data extraction script (updates data/heroes-stats.json)
+pnpm dev              # Start Vite dev server (http://localhost:5173)
+pnpm build            # Build optimized production bundle (dist/)
+pnpm preview          # Preview production build locally
+pnpm generate-schema  # Generate JSON schema from TypeScript interfaces
+pnpm extract          # Generate schema, then extract/validate data (updates data/heroes-stats.json)
 ```
 
 ---
