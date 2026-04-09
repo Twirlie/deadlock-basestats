@@ -48,6 +48,105 @@ function generateSchema() {
               additionalProperties: false,
             },
           },
+          level_info: {
+            type: 'object',
+            description: 'Per-level progression data by level key',
+            additionalProperties: {
+              type: 'object',
+              properties: {
+                required_gold: {
+                  type: 'number',
+                  description: 'Souls required for this level checkpoint',
+                },
+                bonus_currencies: {
+                  type: 'array',
+                  items: { type: 'string' },
+                  description:
+                    'Reward currency tags (e.g. ability unlocks/ability points)',
+                },
+                use_standard_upgrade: {
+                  type: 'boolean',
+                  description: 'Whether standard level-up upgrades apply',
+                },
+              },
+              additionalProperties: true,
+            },
+          },
+          standard_level_up_upgrades: {
+            type: 'object',
+            description: 'Hero-specific boon scaling modifiers',
+            additionalProperties: {
+              type: 'number',
+            },
+          },
+          purchase_bonuses: {
+            type: 'object',
+            description: 'Tiered purchase bonuses by stat category',
+            additionalProperties: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  value_type: { type: 'string' },
+                  tier: { type: 'number' },
+                  value: {
+                    oneOf: [{ type: 'number' }, { type: 'string' }],
+                  },
+                },
+                additionalProperties: true,
+              },
+            },
+          },
+          cost_bonuses: {
+            type: 'object',
+            description: 'Threshold-based bonus curves by category',
+            additionalProperties: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  gold_threshold: { type: 'number' },
+                  bonus: { type: 'number' },
+                  percent_on_graph: { type: 'number' },
+                },
+                additionalProperties: true,
+              },
+            },
+          },
+          scaling_stats: {
+            type: 'object',
+            description: 'Additional stat scaling links',
+            additionalProperties: {
+              type: 'object',
+              properties: {
+                scaling_stat: { type: 'string' },
+                scale: { type: 'number' },
+              },
+              additionalProperties: true,
+            },
+          },
+          boon_progression: {
+            type: 'array',
+            description: 'Normalized level-up progression rows for UI use',
+            items: {
+              type: 'object',
+              required: [
+                'level',
+                'required_gold',
+                'grants_boon',
+                'grants_ability_unlock',
+                'grants_ability_point',
+              ],
+              properties: {
+                level: { type: 'number' },
+                required_gold: { type: 'number' },
+                grants_boon: { type: 'boolean' },
+                grants_ability_unlock: { type: 'boolean' },
+                grants_ability_point: { type: 'boolean' },
+              },
+              additionalProperties: false,
+            },
+          },
         },
         additionalProperties: true,
       },

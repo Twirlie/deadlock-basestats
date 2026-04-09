@@ -3,6 +3,8 @@
   import HeroSearch from './components/HeroSearch.svelte'
   import StatSelector from './components/StatSelector.svelte'
   import StatTierList from './components/StatTierList.svelte'
+  import HeroComparison from './components/HeroComparison.svelte'
+  import BoonProgression from './components/BoonProgression.svelte'
   import heroesStats from '../data/heroes-stats.json'
 
   const heroes: Hero[] = heroesStats
@@ -89,23 +91,11 @@
     </div>
   {:else if activeTab === 'compare'}
     <div class="max-w-4xl mx-auto">
-      <p class="text-center text-gray-300 py-12">
-        ⚖️ Phase 3: Hero Comparison (coming soon)
-      </p>
-      <p class="text-center text-gray-400 text-sm">
-        Select 2 heroes to cross-compare stats side-by-side with visual
-        highlighting of differences.
-      </p>
+      <HeroComparison {heroes} />
     </div>
   {:else if activeTab === 'progression'}
     <div class="max-w-4xl mx-auto">
-      <p class="text-center text-gray-300 py-12">
-        📈 Phase 4: Progression (coming soon)
-      </p>
-      <p class="text-center text-gray-400 text-sm">
-        View how hero stats scale with boons and leveling. Select boon levels to
-        see dynamic stat adjustments.
-      </p>
+      <BoonProgression {heroes} />
     </div>
   {/if}
 </div>
